@@ -2,6 +2,7 @@
 import fresh_tomatoes
 from media import Movie
 
+# make instance of Movie class for "Mad Max" film
 m_max = Movie(movie_title="Mad Max: Fury Road",
               movie_poster_image_url="https://upload.wikimedia.org"
                                      "/wikipedia/en/6/6e/Mad_Max_Fury_Road.jpg",
@@ -23,6 +24,7 @@ m_max = Movie(movie_title="Mad Max: Fury Road",
               movie_trailer_youtube_url="https://www.youtube.com/watch?v="
                                         "hEJnMQG9ev8")
 
+# make instance of Movie class for "Once Upon a Time in America" film
 once_in_america = Movie(movie_title="Once Upon a Time in America",
                         movie_poster_image_url="https://upload.wikimedia.org/"
                                                "wikipedia/en/d/d8/Once_Upon_A"
@@ -35,6 +37,8 @@ once_in_america = Movie(movie_title="Once Upon a Time in America",
                         movie_trailer_youtube_url="https://www.youtube.com/"
                                                   "watch?v=mzhX2PD6Srw")
 
+# inflate list by movie instances
 movies = [m_max, once_in_america, ]
 
+# invoke open_movies_page to start website
 fresh_tomatoes.open_movies_page(movies)
