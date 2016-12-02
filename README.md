@@ -8,3 +8,4 @@ Source code for a Movie Trailer website.
 ```
 python media_center.py
 ```
+4. Enjoy the website :smiley:
